@@ -10,7 +10,7 @@ registerStart(start);
 function start() {
   inWorldConsole.visible(true, new Vector3(0, 1.5, -1.5));
   console.log('Hi and Welcome to Cools Test World V0.1!');
-  console.log('Last change was: " added two walls to the world"');
+  console.log('Last change was: " moved the walls to the right position"');
 
   startGame();
 }
@@ -28,7 +28,7 @@ function startGame() {
   );
 
    const cubeleftwall =spawnPrimitive.cube(
-    new Vector3(-21.5, 3, -25),
+    new Vector3(-10, 2, -25),
     new Vector3(0.2, 3, 43),
     Quaternion.one,
     Color.blue,
@@ -39,7 +39,7 @@ function startGame() {
   );
 
    const cuberightwall =spawnPrimitive.cube(
-    new Vector3(21.5, 3, -25),
+    new Vector3(10, 2, -25),
     new Vector3(0.2, 3, 43),
     Quaternion.one,
     Color.red,

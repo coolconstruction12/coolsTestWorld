@@ -9,12 +9,16 @@ import { Color } from "./Yuu API/Basic Types/Color";
 registerStart(start);
 function start() {
   inWorldConsole.visible(true, new Vector3(0, 1.5, -1.5));
-  inWorldConsole.visible(true, new Vector3(5, 1.5, -1.5));
-
   console.log('Hi and Welcome to Cools Test World V0.1!');
-  console.log('Last change was: "added a cube and a console to the world"');
-
+  
+  lastchange();
   startGame();
+}
+
+
+function lastchange() {
+  inWorldConsole.visible(true, new Vector3(5, 1.5, -1.5));
+  console.log('Last change was: "added a cube and a console to the world"');
 }
 
 function startGame() {

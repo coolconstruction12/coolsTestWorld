@@ -28,7 +28,7 @@ function startGame() {
   );
 
    const cubeleftwall =spawnPrimitive.cube(
-    new Vector3(-10, 2, -25),
+    new Vector3(-10, 1.8, -25),
     new Vector3(0.2, 3, 43),
     Quaternion.one,
     Color.blue,
@@ -39,7 +39,7 @@ function startGame() {
   );
 
    const cuberightwall =spawnPrimitive.cube(
-    new Vector3(10, 2, -25),
+    new Vector3(10, 1.8, -25),
     new Vector3(0.2, 3, 43),
     Quaternion.one,
     Color.red,

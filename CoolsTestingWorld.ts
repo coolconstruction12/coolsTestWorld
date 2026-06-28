@@ -17,8 +17,8 @@ function start() {
 
 function startGame() {
   const cube =spawnPrimitive.cube(
-    new Vector3(0, 0, -10),
-    new Vector3(43, 0.2, 20),
+    new Vector3(0, 0, -25),
+    new Vector3(20, 0.2, 43),
     Quaternion.one,
     Color.green,
     1,

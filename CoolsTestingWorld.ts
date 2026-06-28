@@ -42,11 +42,21 @@ function startGame() {
     new Vector3(10, 1.6, -25),
     new Vector3(0.2, 3, 43),
     Quaternion.one,
-    Color.red,
+    Color.blue,
     1,
     true,
     'Static',
     undefined,
   );
 
+  const cubebackwall =spawnPrimitive.cube(
+    new Vector3(0, 1.6, -44.5),
+    new Vector3(20, 3, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
 }

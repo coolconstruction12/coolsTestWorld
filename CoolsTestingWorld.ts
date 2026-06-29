@@ -50,7 +50,7 @@ function startGame() {
   );
 
   const cubebackwall =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -44.5),
+    new Vector3(0, 1.6, -45.7),
     new Vector3(20, 3, 0.2),
     Quaternion.one,
     Color.red,

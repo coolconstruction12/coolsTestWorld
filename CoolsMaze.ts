@@ -63,7 +63,7 @@ function spawnouterwalls() {
     new Vector3(5.9, 1.6, -5),
     new Vector3(8, 3, 0.2),
     Quaternion.one,
-    Color.red,
+    Color.blue,
     1,
     true,
     'Static',
@@ -91,5 +91,3 @@ function spawnouterwalls() {
     'Static',
     undefined,
   );
-
-}

@@ -9,7 +9,11 @@ export const buildMaze = {
 }
 
 
-function spawnMaze(){
+function spawnMaze() {
+  spawnouterwalls();
+}
+
+function spawnouterwalls() {
   const cubefloor =spawnPrimitive.cube(
     new Vector3(0, 0, -25),
     new Vector3(20, 0.2, 43),
@@ -88,3 +92,4 @@ function spawnMaze(){
   );
 
 }
+

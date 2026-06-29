@@ -1,6 +1,4 @@
 import { Vector3 } from "./Yuu API/Basic Types/Vector3";
-import { inWorldConsole } from "./Yuu API/Console";
-import { registerStart } from "./Yuu API/RegisterStart";
 import { spawnPrimitive } from "./Yuu API/SpawnPrimitive";
 import { Quaternion } from "./Yuu API/Basic Types/Quaternion";
 import { Color } from "./Yuu API/Basic Types/Color";

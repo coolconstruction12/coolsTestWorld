@@ -9,9 +9,11 @@ function start() {
   inWorldConsole.visible(true, new Vector3(0, 1.5, -1.5));
   console.log('Hi and Welcome to Cools Test World V0.1!');
   console.log('Last change was: " working on the spawning the maze"');
+
+  startGamelevels();
+}
   
 
-  
   function startGamelevels() {
     console.log('level working');
    Mazelevel();
@@ -22,6 +24,4 @@ function start() {
   function Mazelevel() {
     console.log('maze level loaded');
     buildMaze.spawnMaze();
-}
-
 }

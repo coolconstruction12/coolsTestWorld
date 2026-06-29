@@ -1,0 +1,58 @@
+import { Vector3 } from "./Yuu API/Basic Types/Vector3";
+import { inWorldConsole } from "./Yuu API/Console";
+import { registerStart } from "./Yuu API/RegisterStart";
+import { spawnPrimitive } from "./Yuu API/SpawnPrimitive";
+import { Quaternion } from "./Yuu API/Basic Types/Quaternion";
+import { Color } from "./Yuu API/Basic Types/Color";
+
+
+export const buildMaze = {
+  spawnMaze,
+}
+
+
+function spawnMaze(){
+  const cubefloor =spawnPrimitive.cube(
+    new Vector3(0, 0, -25),
+    new Vector3(20, 0.2, 43),
+    Quaternion.one,
+    Color.green,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+   const cubeleftwall =spawnPrimitive.cube(
+    new Vector3(-10, 1.6, -25),
+    new Vector3(0.2, 3, 43),
+    Quaternion.one,
+    Color.blue,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+   const cuberightwall =spawnPrimitive.cube(
+    new Vector3(10, 1.6, -25),
+    new Vector3(0.2, 3, 43),
+    Quaternion.one,
+    Color.blue,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+  const cubebackwall =spawnPrimitive.cube(
+    new Vector3(0, 1.6, -45.7),
+    new Vector3(20, 3, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+}

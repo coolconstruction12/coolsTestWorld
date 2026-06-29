@@ -49,10 +49,44 @@ function spawnMaze(){
     new Vector3(0, 1.6, -45.7),
     new Vector3(20, 3, 0.2),
     Quaternion.one,
+    Color.blue,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+  const cubefrontrightwall =spawnPrimitive.cube(
+    new Vector3(-5, 1.6, -5),
+    new Vector3(8, 3, 0.2),
+    Quaternion.one,
+    Color.blue,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+  const cubefrontleftwall =spawnPrimitive.cube(
+    new Vector3(4, 1.6, -5),
+    new Vector3(6, 3, 0.2),
+    Quaternion.one,
     Color.red,
     1,
     true,
     'Static',
     undefined,
   );
+
+  const cubefrontmiddlewall =spawnPrimitive.cube(
+    new Vector3(0, 3, -5),
+    new Vector3(2, 0.5, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
 }

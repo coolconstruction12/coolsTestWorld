@@ -59,7 +59,7 @@ function spawnouterwalls() {
   );
 
   const cubefrontrightwall =spawnPrimitive.cube(
-    new Vector3(5, 1.6, -5),
+    new Vector3(5.4, 1.6, -5),
     new Vector3(8, 3, 0.2),
     Quaternion.one,
     Color.red,

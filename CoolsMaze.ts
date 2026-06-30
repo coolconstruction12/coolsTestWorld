@@ -209,7 +209,7 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall10 =spawnPrimitive.cube(
+  const MazeWall10 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -19),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -219,4 +219,5 @@ function spawninnerwalls(){
     'Static',
     undefined,
   );
+  
 }

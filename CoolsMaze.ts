@@ -38,7 +38,7 @@ function spawnouterwalls() {
     'Static',
     undefined,
   );
-  
+
    const cubeleftwall =spawnPrimitive.cube(
     new Vector3(-10, 1.6, -25),
     new Vector3(0.2, 3, 43),
@@ -128,8 +128,8 @@ stage1();
 function stage1() {
 
   const wall1 =spawnPrimitive.cube(
-    new Vector3(0.9, 1.6, -10),
-    new Vector3(14, 3, 0.2),
+    new Vector3(2, 1.6, -9),
+    new Vector3(12, 3, 0.2),
     Quaternion.one,
     Color.cyan,
     0.5,

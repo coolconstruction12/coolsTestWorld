@@ -28,6 +28,17 @@ function spawnouterwalls() {
     undefined,
   );
 
+   const cuberoof =spawnPrimitive.cube(
+    new Vector3(0, 3.2, -25),
+    new Vector3(20, 0.2, 43),
+    Quaternion.one,
+    Color.black,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+  
    const cubeleftwall =spawnPrimitive.cube(
     new Vector3(-10, 1.6, -25),
     new Vector3(0.2, 3, 43),

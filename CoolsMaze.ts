@@ -111,22 +111,20 @@ function spawnouterwalls() {
 function spawninnerwalls(){
 stage1();
 
-
-
 }
 
 
 function stage1() {
 
-  const MazeWall1 =spawnPrimitive.cube(
-  new Vector3(0.90, 1.6 -10),
-  new Vector3(0.2, 3, 14),
-  Quaternion.one,
-  Color.cyan,
-  1,
-  true,
-  'Static',
-  undefined,
+  const wall1 =spawnPrimitive.cube(
+    new Vector3(0.9, 1.6, -10),
+    new Vector3(0.2, 3, 14),
+    Quaternion.one,
+    Color.cyan,
+    1,
+    true,
+    'Static',
+    undefined,
   );
 
   }

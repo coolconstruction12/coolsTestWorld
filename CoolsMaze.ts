@@ -111,7 +111,7 @@ function spawnouterwalls() {
 function spawninnerwalls(){
 
   const MazeWall1 =spawnPrimitive.cube(
-  new Vector3(0, 1.6 -7),
+  new Vector3(0, 1.6 -10),
   new Vector3(0.2, 3, 0.2),
   Quaternion.one,
   Color.red,
@@ -122,39 +122,6 @@ function spawninnerwalls(){
   );
   
   const MazeWall2 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -8),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-   const MazeWall3 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -9),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-   const MazeWall4 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -10),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall5 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -11),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -165,7 +132,7 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall6 =spawnPrimitive.cube(
+   const MazeWall3 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -12),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -176,7 +143,7 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall7 =spawnPrimitive.cube(
+   const MazeWall4 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -13),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -187,7 +154,7 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall8 =spawnPrimitive.cube(
+     const MazeWall5 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -14),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -198,7 +165,7 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall9 =spawnPrimitive.cube(
+     const MazeWall6 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -15),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
@@ -209,8 +176,41 @@ function spawninnerwalls(){
     undefined,
   );
 
-     const MazeWall10 =spawnPrimitive.cube(
+     const MazeWall7 =spawnPrimitive.cube(
     new Vector3(0, 1.6, -16),
+    new Vector3(0.2, 3, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+     const MazeWall8 =spawnPrimitive.cube(
+    new Vector3(0, 1.6, -17),
+    new Vector3(0.2, 3, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+     const MazeWall9 =spawnPrimitive.cube(
+    new Vector3(0, 1.6, -18),
+    new Vector3(0.2, 3, 0.2),
+    Quaternion.one,
+    Color.red,
+    1,
+    true,
+    'Static',
+    undefined,
+  );
+
+     const MazeWall10 =spawnPrimitive.cube(
+    new Vector3(0, 1.6, -19),
     new Vector3(0.2, 3, 0.2),
     Quaternion.one,
     Color.red,

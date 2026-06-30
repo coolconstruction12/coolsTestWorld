@@ -8,8 +8,8 @@ export const robotlevel = {
 }
 
 function SpawnRobotLevel(){
-SpawnPlateform;
-SpawnRobot;
+SpawnPlateform();
+SpawnRobot();
 
 }
 
@@ -17,7 +17,7 @@ function SpawnPlateform(){
     
     const RobotFloor =spawnPrimitive.cube(
         new Vector3(5, 0, 5),
-        new Vector3(16, 0, 16),
+        new Vector3(16, 0.2, 16),
         Quaternion.one,
         Color.green,
         1,

@@ -82,7 +82,7 @@ function spawnouterwalls() {
   );
 
   const cubefrontmiddlewall =spawnPrimitive.cube(
-    new Vector3(0.90, 2.85, -5),
+    new Vector3(0.90, 2.86, -5),
     new Vector3(2, 0.45, 0.2),
     Quaternion.one,
     Color.red,
@@ -93,7 +93,7 @@ function spawnouterwalls() {
   );
 
   const cubeleftmazewall =spawnPrimitive.cube(
-    new Vector3(-6, 1.6, -24),
+    new Vector3(-6, 1.6, -22),
     new Vector3(0.2, 3, 33),
     Quaternion.one,
     Color.red,

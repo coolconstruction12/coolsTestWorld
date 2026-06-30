@@ -8,7 +8,7 @@ registerStart(start);
 function start() {
   inWorldConsole.visible(true, new Vector3(0, 1.5, -1.5));
   console.log('Hi and Welcome to Cools Test World V0.1!');
-  console.log('Last change was: " making the out walls of the maze"');
+  console.log('Last Change Was: " Finished The Outer walls Of The Maze."');
 
   startGamelevels();
 }

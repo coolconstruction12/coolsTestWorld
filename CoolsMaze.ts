@@ -118,14 +118,13 @@ function stage1() {
 
   const wall1 =spawnPrimitive.cube(
     new Vector3(0.9, 1.6, -10),
-    new Vector3(0.2, 3, 14),
+    new Vector3(14, 3, 0.2),
     Quaternion.one,
     Color.cyan,
-    1,
+    0.5,
     true,
     'Static',
     undefined,
   );
 
   }
-

@@ -109,115 +109,25 @@ function spawnouterwalls() {
 }
 
 function spawninnerwalls(){
+stage1();
+
+
+
+}
+
+
+function stage1() {
 
   const MazeWall1 =spawnPrimitive.cube(
-  new Vector3(0, 1.6 -10),
-  new Vector3(0.2, 3, 0.2),
+  new Vector3(0.90, 1.6 -10),
+  new Vector3(0.2, 3, 14),
   Quaternion.one,
-  Color.red,
+  Color.cyan,
   1,
   true,
   'Static',
   undefined,
   );
-  
-  const MazeWall2 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -11),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
 
-   const MazeWall3 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -12),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
+  }
 
-   const MazeWall4 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -13),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall5 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -14),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall6 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -15),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall7 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -16),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall8 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -17),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-     const MazeWall9 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -18),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-
-  const MazeWall10 =spawnPrimitive.cube(
-    new Vector3(0, 1.6, -19),
-    new Vector3(0.2, 3, 0.2),
-    Quaternion.one,
-    Color.red,
-    1,
-    true,
-    'Static',
-    undefined,
-  );
-  
-}

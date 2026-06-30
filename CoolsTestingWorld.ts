@@ -2,6 +2,7 @@ import { Vector3 } from "./Yuu API/Basic Types/Vector3";
 import { inWorldConsole } from "./Yuu API/Console";
 import { registerStart } from "./Yuu API/RegisterStart";
 import { buildMaze } from "./CoolsMaze";
+import { robotlevel } from "./RobotTest";
 
 
 registerStart(start);
@@ -22,4 +23,8 @@ function start() {
 
   function Mazelevel() {
     buildMaze.spawnMaze();
+}
+
+function Robotlevel(){
+  robotlevel.SpawnRobotLevel();
 }

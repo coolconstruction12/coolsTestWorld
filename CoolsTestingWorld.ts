@@ -17,7 +17,7 @@ function start() {
 
   function startGamelevels() {
    Mazelevel();
-
+   Robotlevel();
   }
 
 

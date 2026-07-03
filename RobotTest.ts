@@ -16,7 +16,7 @@ SpawnRobot();
 function SpawnPlateform(){
     
     const RobotFloor =spawnPrimitive.cube(
-        new Vector3(5, 0, 5),
+        new Vector3(10, 0, 10),
         new Vector3(16, 0.2, 16),
         Quaternion.one,
         Color.green,
@@ -39,9 +39,8 @@ LeftAndRightLegs();
 function spawnRobotBodyandhead(){
 
 
-
  const RBody =spawnPrimitive.cube(
-    new Vector3(5, 1, 5),
+    new Vector3(10, 1, 10),
     new Vector3(0.6, 0.8, 0.3),
     Quaternion.one,
     Color.blue,
@@ -52,7 +51,7 @@ function spawnRobotBodyandhead(){
 );
 
 const RShoulder =spawnPrimitive.cube(
-    new Vector3(0, 0.65, 0),
+    new Vector3(10, 1.65, 10),
     new Vector3(0.8, 0.1, 0.1),
     Quaternion.one,
     Color.black,
@@ -63,7 +62,7 @@ const RShoulder =spawnPrimitive.cube(
 );  
 
 const RSpine =spawnPrimitive.cube(
-    new Vector3(5, 0, 5),
+    new Vector3(10, 1, 10),
     new Vector3(0.1, 1, 0.1),
     Quaternion.one,
     Color.black,
@@ -74,7 +73,7 @@ const RSpine =spawnPrimitive.cube(
 );
 
 const Rhead =spawnPrimitive.cube(
-    new Vector3(0, 0.6, 0),
+    new Vector3(10, 1.6, 10),
     new Vector3(0.9, 0.6, 0.6),
     Quaternion.one,
     Color.blue,
@@ -84,6 +83,18 @@ const Rhead =spawnPrimitive.cube(
     RSpine,
 
 );
+
+const RScreen =spawnPrimitive.cube(
+    new Vector3(10, 1.6, 9.1),
+    new Vector3(0.8, 0.01, 0.5),
+    Quaternion.one,
+    Color.black,
+    1,
+    true,
+    'Animated',
+    Rhead,
+);
+
 }
 
 

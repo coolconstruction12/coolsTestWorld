@@ -51,7 +51,7 @@ function spawnRobotBodyandhead(){
 );
 
 const RShoulder =spawnPrimitive.cube(
-    new Vector3(0, 0.2, 0),
+    new Vector3(0, 0.6, 0),
     new Vector3(0.8, 0.1, 0.1),
     Quaternion.one,
     Color.black,
@@ -73,8 +73,8 @@ const RSpine =spawnPrimitive.cube(
 );
 
 const Rhead =spawnPrimitive.cube(
-    new Vector3(0, 0.2, 0),
-    new Vector3(0.6, 0.6, 0.3),
+    new Vector3(0, 1, 0),
+    new Vector3(0.7, 0.7, 0.4),
     Quaternion.one,
     Color.blue,
     1,
@@ -86,7 +86,7 @@ const Rhead =spawnPrimitive.cube(
 
 const RScreen =spawnPrimitive.cube(
     new Vector3(0, 0, 0.1),
-    new Vector3(0.4, 0.5, 0.3),
+    new Vector3(0.5, 0.6, 0.3),
     Quaternion.one,
     Color.black,
     1,
